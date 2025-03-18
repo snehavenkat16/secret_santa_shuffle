@@ -35,3 +35,9 @@ Before setting up the project locally, ensure you have the following installed:
 - **Node.js**  
 - **npm** (Comes with Node.js)  
 - **Git**  
+## Installation
+
+### Clone the Repository  
+```sh
+git clone https://github.com/Monika-Thiyagarajan/task-manager.git
+cd task-manager
