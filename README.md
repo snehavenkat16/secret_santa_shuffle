@@ -39,5 +39,5 @@ Before setting up the project locally, ensure you have the following installed:
 
 ### Clone the Repository  
 ```sh
-git clone https://github.com/Monika-Thiyagarajan/task-manager.git
-cd task-manager
+git clone https://github.com/snehavenkat16/secret_santa_shuffle.git
+
