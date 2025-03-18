@@ -1,40 +1,37 @@
-# secret_santa_shuffle
+# Secret Santa Shuffle
 
-# A full-stack Secret Santa application that allows users to upload employee lists, generate assignments, and download results, ensuring the following rules:
+A full-stack Secret Santa application that allows users to upload employee lists, generate assignments, and download results, ensuring the following rules:
 
-# An employee cannot choose themselves as their Secret Santa.
-# An employee cannot be assigned the same secret child as the previous year.
-# Each employee must have exactly one secret child and vice versa.
-# Supports CSV and Excel (.xlsx) uploads, with automatic Excel-to-CSV conversion.
+- An employee **cannot choose themselves** as their Secret Santa.
+- An employee **cannot be assigned the same secret child** as the previous year.
+- Each employee **must have exactly one secret child** and vice versa.
+- Supports **CSV and Excel (.xlsx) uploads**, with automatic Excel-to-CSV conversion.
 
+## Features
 
-# Features
+- **File Upload** (Current Year & Previous Year Assignments)  
+- **CSV & Excel (.xlsx) Support** (Converts Excel to CSV Automatically)  
+- **Secret Santa Assignment** (No Repetitions, No Self-Assignments)  
+- **Downloadable CSV File** of Final Assignments  
+- **Frontend Validation** (Ensuring Files Are Uploaded Before Downloading)  
 
-# File Upload (Current Year & Previous Year Assignments) CSV & Excel (.xlsx) Support (Converts Excel to CSV Automatically)
-# Secret Santa Assignment (No Repetitions, No Self-Assignments)
-# Downloadable CSV File of Final Assignments
-# Frontend Validation (Ensuring Files Are Uploaded Before Downloading)
+## Tech Stack
 
-# Tech Stack
+### **Frontend**
+- HTML, CSS, JavaScript  
+- Fetch API (for API Requests)  
 
-# Frontend:
-# HTML, CSS, JavaScript
-# Fetch API (for API Requests)
+### **Backend**
+- Node.js, Express.js  
+- Multer (File Uploads)  
+- fast-csv (CSV Processing)  
+- xlsx (Excel to CSV Conversion)  
+- MongoDB (Optional, for Storing Assignments)  
 
-# Backend:
+## Prerequisites
 
-# Node.js, Express.js
-# Multer (File Uploads)
-# fast-csv (CSV Processing)
-# xlsx (Excel to CSV Conversion)
-# MongoDB (Optional, for Storing Assignments)
+Before setting up the project locally, ensure you have the following installed:
 
-
-
-# Prerequisites
-
-# Before setting up the project locally, ensure you have the following installed:
-
-# Node.js
-# npm (Comes with Node.js)
-# Git
+- **Node.js**  
+- **npm** (Comes with Node.js)  
+- **Git**  
